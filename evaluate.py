@@ -5,7 +5,8 @@ from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 
 os.makedirs("results", exist_ok=True)
-CLASS_NAMES = ["frog", "truck", "cat", "airplane", "horse", "ship", "deer", "automobile", "dog", "bird"]
+CLASS_NAMES = ["airplane", "automobile", "bird", "cat", "deer",
+               "dog", "frog", "horse", "ship", "truck"]
 
 # In this function i have loaded the test data from cifar-10 dataset
 def load_test_data(): 

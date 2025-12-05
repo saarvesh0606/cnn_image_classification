@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 from model import build_cnn 
 
 os.makedirs('results', exist_ok=True)
-CLASS_NAMES = ["ship", "dog", "automobile", "frog", "cat", "truck", "bird", "deer", "horse", "airplane"]
+CLASS_NAMES = ["airplane", "automobile", "bird", "cat", "deer",
+               "dog", "frog", "horse", "ship", "truck"]
 
 
 # I have loaded the data from cifar-10 dataset and normalized it between 0 and 1 
