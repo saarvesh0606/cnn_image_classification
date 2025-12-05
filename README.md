@@ -12,6 +12,18 @@ This project implements the complete machine learning pipeline:
 
 ---
 
+## Project Description
+
+This project builds an intelligent system that can recognize objects in images using deep learning. The model is trained to look at a picture and automatically identify what it contains, such as an airplane, car, dog, or ship.
+
+A Convolutional Neural Network (CNN) is built from scratch to learn visual patterns from thousands of example images. The system improves by learning from mistakes and gradually becomes better at recognizing different objects.
+
+The project also shows how the model is trained, evaluated, and tested using real data. Performance is measured using accuracy, precision, recall, and a confusion matrix, and example predictions are displayed to show how the model performs on real images.
+
+This project demonstrates how computers can “learn to see” using artificial intelligence and is a complete example of training, testing, and evaluating an image classification model.
+
+---
+
 ## Dataset Used
 - **Name:** CIFAR-10
 - **Total images:** 60,000
