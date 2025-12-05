@@ -1,0 +1,9 @@
+# before running the code please make sure you have python 3.11 installed.
+# once this is confirmed, then in command-prompt of vs-code or any other command-prompt paste this command
+# pip install -r requirements.txt
+# once installed you are ready to go.
+
+tensorflow
+numpy
+matplotlib
+scikit-learn
